@@ -14,16 +14,35 @@
         <div>
             <div>
                 <p></p>
-                <input type="text">                
+                <input id="text-input" type="text">                
             </div>
-            <input type="button" value="">
+            <input id="check-btn" type="button" value="">
         </div>
         <div>
             <p></p>
-            <span></span>
+            <span id="result"></span>
         </div>
     </div>
 
     <script src="./JS/script.JS"></script>
 </body>
 </html>
+
+<!-- 
+
+Ao clicar no #check-btnelemento sem inserir um valor no #text-inputelemento, um alerta deve aparecer com o texto"Please input a value"
+Quando o #text-inputelemento contém apenas a letra Ae o #check-btnelemento é clicado, o #resultelemento deve conter o texto"A is a palindrome"
+Quando o #text-inputelemento contém o texto eyee o #check-btnelemento é clicado, o #resultelemento deve conter o texto"eye is a palindrome"
+Quando o #text-inputelemento contém o texto _eyee o #check-btnelemento é clicado, o #resultelemento deve conter o texto"_eye is a palindrome"
+Quando o #text-inputelemento contém o texto race care o #check-btnelemento é clicado, o #resultelemento deve conter o texto"race car is a palindrome"
+Quando o #text-inputelemento contém o texto not a palindromee o #check-btnelemento é clicado, o #resultelemento deve conter o texto"not a palindrome is not a palindrome"
+Quando o #text-inputelemento contém o texto A man, a plan, a canal. Panamae o #check-btnelemento é clicado, o #resultelemento deve conter o texto"A man, a plan, a canal. Panama is a palindrome"
+Quando o #text-inputelemento contém o texto never odd or evene o #check-btnelemento é clicado, o #resultelemento deve conter o texto"never odd or even is a palindrome"
+Quando o #text-inputelemento contém o texto nopee o #check-btnelemento é clicado, o #resultelemento deve conter o texto"nope is not a palindrome"
+Quando o #text-inputelemento contém o texto almostomlae o #check-btnelemento é clicado, o #resultelemento deve conter o texto"almostomla is not a palindrome"
+Quando o #text-inputelemento contém o texto My age is 0, 0 si ega ym.e o #check-btnelemento é clicado, o #resultelemento deve conter o texto"My age is 0, 0 si ega ym. is a palindrome"
+Quando o #text-inputelemento contém o texto 1 eye for of 1 eye.e o #check-btnelemento é clicado, o #resultelemento deve conter o texto"1 eye for of 1 eye. is not a palindrome"
+Quando o #text-inputelemento contém o texto 0_0 (: /-\ :) 0-0e o #check-btnelemento é clicado, o #resultelemento deve conter o texto"0_0 (: /-\ :) 0-0 is a palindrome"
+Quando o #text-inputelemento contém o texto five|\_/|foure o #check-btnelemento é clicado, o #resultelemento deve conter o texto"five|\_/|four is not a palindrome"
+
+-->
