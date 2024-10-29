@@ -78,6 +78,10 @@ p {
     left: 230px;
 }
 
+.oq:hover {
+    cursor: pointer;
+}
+
 #result {
     font-size: 26px;
     color: black;
@@ -91,4 +95,21 @@ p {
     display: flex;
     justify-content: center;
     margin-top: 30px;
+}
+
+#p-info {
+    color: whitesmoke;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;   
+}
+
+#div-info {
+    width: 300px;
+    position: absolute;
+    left: 40px;
+    top: 10px;
+    background-color: #522945;
+    border-radius: 5px;
+    padding: 5px;
 }

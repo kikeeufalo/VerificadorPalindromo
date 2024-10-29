@@ -22,3 +22,20 @@ document.getElementById('check-btn').addEventListener('click', function() {
         resultElement.textContent = `${text} is not a palindrome`;
     }
 });
+
+document.getElementById('oq').addEventListener('click', function() {
+    const div = document.createElement('div')
+    const p = document.createElement('p')
+
+    div.id = 'div-info'
+    p.id = 'p-info'
+
+    p.textContent = 'Um palíndromo é uma palavra ou frase que é escrita da mesma forma, de trás para frente, ignorando pontuação, maiúsculas e minúsculas e espaçamento.'
+
+    div.appendChild(p)
+    document.getElementById('oq').appendChild(div)
+
+    setTimeout(() => {
+        document.getElementById('div-info').remove()
+    }, 2000)
+})
