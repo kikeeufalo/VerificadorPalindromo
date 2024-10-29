@@ -77,3 +77,18 @@ p {
     bottom: 430px;
     left: 230px;
 }
+
+#result {
+    font-size: 26px;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.result {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
