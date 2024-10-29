@@ -8,10 +8,11 @@ body {
 
 .container {
     width: 100%;
-    height: 100vh;
+    height: auto;
     display: flex;
     justify-content: center;
     text-align: center;
+    margin-top: 200px;
 }
 
 h1 {
@@ -23,11 +24,56 @@ h1 {
     width: 500px;
     height: 200px;
     background-color: #93bd9a;
-    border-radius: 2px;
+    border-radius: 5px;
     padding: 5px;
 }
 
 p {
     color: #3d1c33;
     font-size: 16pt;
+}
+
+.textInput {
+    padding: 5px;
+    font-size: 24px;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #3d1c33;
+}
+
+.checkBtn {
+    padding: 10px;
+    margin-left: 50px;
+    border-radius: 20px;
+    border: none;
+    background-color: #3d1c33;
+    color: white;
+    font-size: 16px;
+    box-shadow: 2px 1px 4px black;
+}
+
+.checkBtn:hover {
+    cursor: pointer;
+}
+
+.checkBtn:active {
+    padding: 9px;
+    margin-left: 51px;
+    box-shadow: none;
+}
+
+.oq {
+    font-size: 36px;
+    color: whitesmoke;
+    text-shadow: 
+    0px 0px 2px black,
+    0px 0px 5px black,    
+    0px 0px 7px black
+    ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    bottom: 430px;
+    left: 230px;
 }
